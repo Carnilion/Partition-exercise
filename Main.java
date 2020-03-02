@@ -1,3 +1,4 @@
+
 package com.company;
 
 public class Main {
@@ -10,7 +11,12 @@ public class Main {
         int[] table = {100,200,500,400};
         example.setBoundaryTable(table);
         example.printBoundaryTable();
+
+        int[] table1 = {-1,-1,-1,-1};
+        example.setTable(table1);
+
         example.allocate();
+
         System.out.println();
         example.printTable();
 
